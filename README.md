@@ -12,12 +12,7 @@ Este projeto reconstrói a página inicial a partir do HTML fornecido, mantendo 
 - `manifest.webmanifest`: metadados da aplicação web
 - `service-worker.js`: cache básico para recursos do próprio site
 
-## Testar e publicar
-1. Extraia o ZIP.
-2. Teste localmente com um servidor HTTP (não abrindo o HTML com duplo clique).
-3. Faça o deploy da pasta do projeto no Netlify ou conecte-a a um repositório Git.
-4. Teste a instalação em Android/Chrome e iPhone/Safari.
-5. Revise textos, links, imagens e política de privacidade antes de publicar.
+
 
 ## Pontos importantes antes de colocar em produção
 - O mascote e o ícone são referenciados pelo endereço antigo do Falamigo (`falamigo.netlify.app`). Para tornar o novo projeto independente, baixe esses arquivos do site antigo e coloque cópias locais em `assets/`, depois atualize os caminhos no HTML e no manifesto.
